@@ -1,0 +1,20 @@
+{
+    "name": "qfx1backend",
+    "version": "1.0.0",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "npx nodemon server.js",
+        "start": "node server.js"
+    },
+    "author": "smith.maharjan1234@gmail.com",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "express": "^4.20.0",
+        "mongoose": "^8.6.1",
+        "nodemon": "^3.1.4"
+    }
+}
